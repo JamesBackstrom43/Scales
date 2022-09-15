@@ -3,9 +3,17 @@ void setup() {
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-  //your code here
+  for (int y = -30;y < 540;y = y + 30)
+  for(int x = -30;x < 540;x = x + 20)
+  scale(x,y);
 }
 void scale(int x, int y) {
-  //your code here
+  fill(#2CD317);
+  ellipse(x,y,55,55);
+  ellipse(x,y,45,45);
+  ellipse(x,y,35,35);
+  ellipse(x,y,25,25);
+  ellipse(x,y,15,15);
+  ellipse(x,y,5,5);
 }
 
