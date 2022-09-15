@@ -8,7 +8,7 @@ void draw() {
   scale(x,y);
 }
 void scale(int x, int y) {
-  fill(#2CD317);
+  fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
   ellipse(x,y,55,55);
   ellipse(x,y,45,45);
   ellipse(x,y,35,35);
